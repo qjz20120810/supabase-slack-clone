@@ -1,0 +1,4 @@
+[build.environment]
+  NODE_VERSION = "22"
+  # Next.js 10 uses Webpack 4, which requires legacy hashing with modern Node.js.
+  NODE_OPTIONS = "--openssl-legacy-provider"

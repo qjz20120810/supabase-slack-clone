@@ -2,6 +2,9 @@
   "name": "supabase-slack-clone-basic",
   "version": "0.1.1",
   "license": "MIT",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "next",
     "export": "next export",
@@ -10,10 +13,13 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.1.2",
-    "next": "latest",
+    "next": "10.2.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "sass": "^1.26.2",
     "tailwindcss": "^1.1.4"
+  },
+  "overrides": {
+    "postcss@8.2.13": "8.5.6"
   }
 }
